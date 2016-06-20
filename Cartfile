@@ -1,0 +1,21 @@
+github "Alamofire/Alamofire" ~> 3.3
+github "SwiftyJSON/SwiftyJSON"
+github "Hearst-DD/ObjectMapper" ~> 1.2
+github "tristanhimmelman/AlamofireObjectMapper" ~> 3.0
+github "realm/realm-cocoa"
+github "ReactiveX/RxSwift" ~> 2.0
+github "ankurp/Dollar" ~> 5.0
+github "duemunk/Async"
+github "Haneke/HanekeSwift"
+github "CosmicMind/Material"
+github "MengTo/Spring" "swift2"
+github "onevcat/Kingfisher" ~> 2.3
+github "mamaral/Neon"
+github "SnapKit/SnapKit"
+github "Quick/Quick"
+github "Quick/Nimble"
+github "akosma/SwiftMoment"
+github "mamaral/Onboard"
+github "mxcl/PromiseKit" ~> 3.1
+github "rollbar/rollbar-ios"
+github "radex/SwiftyUserDefaults"
