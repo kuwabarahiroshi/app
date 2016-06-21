@@ -19,3 +19,4 @@ github "mamaral/Onboard"
 github "mxcl/PromiseKit" ~> 3.1
 github "rollbar/rollbar-ios"
 github "radex/SwiftyUserDefaults"
+github "uacaps/PageMenu"
