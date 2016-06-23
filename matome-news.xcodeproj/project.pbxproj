@@ -12,6 +12,26 @@
 		68E879E41D1822B8001B67FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E879E21D1822B8001B67FB /* Main.storyboard */; };
 		68E879E61D1822B8001B67FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E879E51D1822B8001B67FB /* Assets.xcassets */; };
 		68E879E91D1822B8001B67FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E879E71D1822B8001B67FB /* LaunchScreen.storyboard */; };
+		68E87A051D1C1C54001B67FB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E879F11D1C1C54001B67FB /* Alamofire.framework */; };
+		68E87A061D1C1C54001B67FB /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E879F21D1C1C54001B67FB /* AlamofireObjectMapper.framework */; };
+		68E87A071D1C1C54001B67FB /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E879F31D1C1C54001B67FB /* Async.framework */; };
+		68E87A081D1C1C54001B67FB /* Dollar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E879F41D1C1C54001B67FB /* Dollar.framework */; };
+		68E87A091D1C1C54001B67FB /* Haneke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E879F51D1C1C54001B67FB /* Haneke.framework */; };
+		68E87A0A1D1C1C54001B67FB /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E879F61D1C1C54001B67FB /* Kingfisher.framework */; };
+		68E87A0B1D1C1C54001B67FB /* Material.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E879F71D1C1C54001B67FB /* Material.framework */; };
+		68E87A0C1D1C1C54001B67FB /* Neon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E879F81D1C1C54001B67FB /* Neon.framework */; };
+		68E87A0D1D1C1C54001B67FB /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E879F91D1C1C54001B67FB /* ObjectMapper.framework */; };
+		68E87A0E1D1C1C54001B67FB /* PageMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E879FA1D1C1C54001B67FB /* PageMenu.framework */; };
+		68E87A0F1D1C1C54001B67FB /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E879FB1D1C1C54001B67FB /* PromiseKit.framework */; };
+		68E87A101D1C1C54001B67FB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E879FC1D1C1C54001B67FB /* Realm.framework */; };
+		68E87A111D1C1C54001B67FB /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E879FD1D1C1C54001B67FB /* RealmSwift.framework */; };
+		68E87A121D1C1C54001B67FB /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E879FE1D1C1C54001B67FB /* RxCocoa.framework */; };
+		68E87A131D1C1C54001B67FB /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E879FF1D1C1C54001B67FB /* RxSwift.framework */; };
+		68E87A141D1C1C54001B67FB /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E87A001D1C1C54001B67FB /* SnapKit.framework */; };
+		68E87A151D1C1C54001B67FB /* Spring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E87A011D1C1C54001B67FB /* Spring.framework */; };
+		68E87A161D1C1C54001B67FB /* SwiftMoment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E87A021D1C1C54001B67FB /* SwiftMoment.framework */; };
+		68E87A171D1C1C54001B67FB /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E87A031D1C1C54001B67FB /* SwiftyJSON.framework */; };
+		68E87A181D1C1C54001B67FB /* SwiftyUserDefaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E87A041D1C1C54001B67FB /* SwiftyUserDefaults.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +42,26 @@
 		68E879E51D1822B8001B67FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68E879E81D1822B8001B67FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68E879EA1D1822B8001B67FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68E879F11D1C1C54001B67FB /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		68E879F21D1C1C54001B67FB /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = Carthage/Build/iOS/AlamofireObjectMapper.framework; sourceTree = "<group>"; };
+		68E879F31D1C1C54001B67FB /* Async.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Async.framework; path = Carthage/Build/iOS/Async.framework; sourceTree = "<group>"; };
+		68E879F41D1C1C54001B67FB /* Dollar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Dollar.framework; path = Carthage/Build/iOS/Dollar.framework; sourceTree = "<group>"; };
+		68E879F51D1C1C54001B67FB /* Haneke.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Haneke.framework; path = Carthage/Build/iOS/Haneke.framework; sourceTree = "<group>"; };
+		68E879F61D1C1C54001B67FB /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		68E879F71D1C1C54001B67FB /* Material.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Material.framework; path = Carthage/Build/iOS/Material.framework; sourceTree = "<group>"; };
+		68E879F81D1C1C54001B67FB /* Neon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Neon.framework; path = Carthage/Build/iOS/Neon.framework; sourceTree = "<group>"; };
+		68E879F91D1C1C54001B67FB /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		68E879FA1D1C1C54001B67FB /* PageMenu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PageMenu.framework; path = Carthage/Build/iOS/PageMenu.framework; sourceTree = "<group>"; };
+		68E879FB1D1C1C54001B67FB /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = Carthage/Build/iOS/PromiseKit.framework; sourceTree = "<group>"; };
+		68E879FC1D1C1C54001B67FB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		68E879FD1D1C1C54001B67FB /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		68E879FE1D1C1C54001B67FB /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		68E879FF1D1C1C54001B67FB /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		68E87A001D1C1C54001B67FB /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		68E87A011D1C1C54001B67FB /* Spring.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spring.framework; path = Carthage/Build/iOS/Spring.framework; sourceTree = "<group>"; };
+		68E87A021D1C1C54001B67FB /* SwiftMoment.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftMoment.framework; path = Carthage/Build/iOS/SwiftMoment.framework; sourceTree = "<group>"; };
+		68E87A031D1C1C54001B67FB /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		68E87A041D1C1C54001B67FB /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyUserDefaults.framework; path = Carthage/Build/iOS/SwiftyUserDefaults.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +69,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68E87A161D1C1C54001B67FB /* SwiftMoment.framework in Frameworks */,
+				68E87A111D1C1C54001B67FB /* RealmSwift.framework in Frameworks */,
+				68E87A171D1C1C54001B67FB /* SwiftyJSON.framework in Frameworks */,
+				68E87A101D1C1C54001B67FB /* Realm.framework in Frameworks */,
+				68E87A121D1C1C54001B67FB /* RxCocoa.framework in Frameworks */,
+				68E87A0D1D1C1C54001B67FB /* ObjectMapper.framework in Frameworks */,
+				68E87A051D1C1C54001B67FB /* Alamofire.framework in Frameworks */,
+				68E87A131D1C1C54001B67FB /* RxSwift.framework in Frameworks */,
+				68E87A061D1C1C54001B67FB /* AlamofireObjectMapper.framework in Frameworks */,
+				68E87A141D1C1C54001B67FB /* SnapKit.framework in Frameworks */,
+				68E87A0C1D1C1C54001B67FB /* Neon.framework in Frameworks */,
+				68E87A081D1C1C54001B67FB /* Dollar.framework in Frameworks */,
+				68E87A0F1D1C1C54001B67FB /* PromiseKit.framework in Frameworks */,
+				68E87A181D1C1C54001B67FB /* SwiftyUserDefaults.framework in Frameworks */,
+				68E87A071D1C1C54001B67FB /* Async.framework in Frameworks */,
+				68E87A0A1D1C1C54001B67FB /* Kingfisher.framework in Frameworks */,
+				68E87A091D1C1C54001B67FB /* Haneke.framework in Frameworks */,
+				68E87A0E1D1C1C54001B67FB /* PageMenu.framework in Frameworks */,
+				68E87A0B1D1C1C54001B67FB /* Material.framework in Frameworks */,
+				68E87A151D1C1C54001B67FB /* Spring.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				68E879DD1D1822B8001B67FB /* matome-news */,
+				68E879F01D1C1BCA001B67FB /* Frameworks */,
 				68E879DC1D1822B8001B67FB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +125,33 @@
 			path = "matome-news";
 			sourceTree = "<group>";
 		};
+		68E879F01D1C1BCA001B67FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68E879F11D1C1C54001B67FB /* Alamofire.framework */,
+				68E879F21D1C1C54001B67FB /* AlamofireObjectMapper.framework */,
+				68E879F31D1C1C54001B67FB /* Async.framework */,
+				68E879F41D1C1C54001B67FB /* Dollar.framework */,
+				68E879F51D1C1C54001B67FB /* Haneke.framework */,
+				68E879F61D1C1C54001B67FB /* Kingfisher.framework */,
+				68E879F71D1C1C54001B67FB /* Material.framework */,
+				68E879F81D1C1C54001B67FB /* Neon.framework */,
+				68E879F91D1C1C54001B67FB /* ObjectMapper.framework */,
+				68E879FA1D1C1C54001B67FB /* PageMenu.framework */,
+				68E879FB1D1C1C54001B67FB /* PromiseKit.framework */,
+				68E879FC1D1C1C54001B67FB /* Realm.framework */,
+				68E879FD1D1C1C54001B67FB /* RealmSwift.framework */,
+				68E879FE1D1C1C54001B67FB /* RxCocoa.framework */,
+				68E879FF1D1C1C54001B67FB /* RxSwift.framework */,
+				68E87A001D1C1C54001B67FB /* SnapKit.framework */,
+				68E87A011D1C1C54001B67FB /* Spring.framework */,
+				68E87A021D1C1C54001B67FB /* SwiftMoment.framework */,
+				68E87A031D1C1C54001B67FB /* SwiftyJSON.framework */,
+				68E87A041D1C1C54001B67FB /* SwiftyUserDefaults.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +162,7 @@
 				68E879D71D1822B8001B67FB /* Sources */,
 				68E879D81D1822B8001B67FB /* Frameworks */,
 				68E879D91D1822B8001B67FB /* Resources */,
+				68E87A191D1C1CB1001B67FB /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -128,6 +217,42 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68E87A191D1C1CB1001B67FB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireObjectMapper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Async.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Dollar.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Haneke.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Material.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Neon.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/PageMenu.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/PromiseKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Spring.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftMoment.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyUserDefaults.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		68E879D71D1822B8001B67FB /* Sources */ = {
@@ -250,6 +375,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "matome-news/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.sandbox.matome-news";
@@ -261,6 +390,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "matome-news/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.sandbox.matome-news";
