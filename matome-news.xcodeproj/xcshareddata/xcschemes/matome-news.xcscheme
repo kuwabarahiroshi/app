@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "51F519E5BE7DDD73DD1A4D60"
+               BlueprintIdentifier = "9B24772F3FCF24216DFDF982"
                BuildableName = "matome-news.app"
                BlueprintName = "matome-news"
                ReferencedContainer = "container:matome-news.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "239D65B74CEF793601DDE32E"
+               BlueprintIdentifier = "2A573B56B15DD653176E18BF"
                BuildableName = "UnitTests.xctest"
                BlueprintName = "UnitTests"
                ReferencedContainer = "container:matome-news.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "51F519E5BE7DDD73DD1A4D60"
+            BlueprintIdentifier = "9B24772F3FCF24216DFDF982"
             BuildableName = "matome-news.app"
             BlueprintName = "matome-news"
             ReferencedContainer = "container:matome-news.xcodeproj">
@@ -65,7 +65,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "51F519E5BE7DDD73DD1A4D60"
+            BlueprintIdentifier = "9B24772F3FCF24216DFDF982"
             BuildableName = "matome-news.app"
             BlueprintName = "matome-news"
             ReferencedContainer = "container:matome-news.xcodeproj">
@@ -84,7 +84,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "51F519E5BE7DDD73DD1A4D60"
+            BlueprintIdentifier = "9B24772F3FCF24216DFDF982"
             BuildableName = "matome-news.app"
             BlueprintName = "matome-news"
             ReferencedContainer = "container:matome-news.xcodeproj">
