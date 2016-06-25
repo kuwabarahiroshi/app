@@ -12,7 +12,6 @@
 		68E87A331D1D799F001B67FB /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E87A1C1D1D799F001B67FB /* Async.framework */; };
 		68E87A341D1D799F001B67FB /* Dollar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E87A1D1D1D799F001B67FB /* Dollar.framework */; };
 		68E87A351D1D799F001B67FB /* Haneke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E87A1E1D1D799F001B67FB /* Haneke.framework */; };
-		68E87A361D1D799F001B67FB /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E87A1F1D1D799F001B67FB /* Kingfisher.framework */; };
 		68E87A371D1D799F001B67FB /* Material.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E87A201D1D799F001B67FB /* Material.framework */; };
 		68E87A381D1D799F001B67FB /* Neon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E87A211D1D799F001B67FB /* Neon.framework */; };
 		68E87A391D1D799F001B67FB /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E87A221D1D799F001B67FB /* ObjectMapper.framework */; };
@@ -36,6 +35,23 @@
 		68E87AB31D1ED8BD001B67FB /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AB21D1ED8BD001B67FB /* Logger.swift */; };
 		68E87AB41D1ED938001B67FB /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E87A301D1D799F001B67FB /* XCGLogger.framework */; };
 		68E87AB61D1ED996001B67FB /* RollingFileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AB51D1ED996001B67FB /* RollingFileLogger.swift */; };
+		68E87AC91D1EDAB5001B67FB /* AlamofireExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AB81D1EDAB5001B67FB /* AlamofireExtensions.swift */; };
+		68E87ACA1D1EDAB5001B67FB /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AB91D1EDAB5001B67FB /* ArrayExtensions.swift */; };
+		68E87ACB1D1EDAB5001B67FB /* GeometryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87ABA1D1EDAB5001B67FB /* GeometryExtensions.swift */; };
+		68E87ACD1D1EDAB5001B67FB /* HexExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87ABC1D1EDAB5001B67FB /* HexExtensions.swift */; };
+		68E87ACE1D1EDAB5001B67FB /* NSCharacterSetExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87ABD1D1EDAB5001B67FB /* NSCharacterSetExtensions.swift */; };
+		68E87ACF1D1EDAB5001B67FB /* NSFileManagerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87ABE1D1EDAB5001B67FB /* NSFileManagerExtensions.swift */; };
+		68E87AD01D1EDAB5001B67FB /* NSMutableAttributedStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87ABF1D1EDAB5001B67FB /* NSMutableAttributedStringExtensions.swift */; };
+		68E87AD11D1EDAB5001B67FB /* NSScannerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AC01D1EDAB5001B67FB /* NSScannerExtensions.swift */; };
+		68E87AD21D1EDAB5001B67FB /* NSStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AC11D1EDAB5001B67FB /* NSStringExtensions.swift */; };
+		68E87AD31D1EDAB5001B67FB /* NSURLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AC21D1EDAB5001B67FB /* NSURLExtensions.swift */; };
+		68E87AD41D1EDAB5001B67FB /* NSURLProtectionSpaceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AC31D1EDAB5001B67FB /* NSURLProtectionSpaceExtensions.swift */; };
+		68E87AD51D1EDAB5001B67FB /* SetExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AC41D1EDAB5001B67FB /* SetExtensions.swift */; };
+		68E87AD61D1EDAB5001B67FB /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AC51D1EDAB5001B67FB /* StringExtensions.swift */; };
+		68E87AD71D1EDAB5001B67FB /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AC61D1EDAB5001B67FB /* UIColorExtensions.swift */; };
+		68E87AD81D1EDAB5001B67FB /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AC71D1EDAB5001B67FB /* UIImageExtensions.swift */; };
+		68E87AD91D1EDAB5001B67FB /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AC81D1EDAB5001B67FB /* UIViewExtensions.swift */; };
+		68E87ADB1D1EE118001B67FB /* WebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E87ADA1D1EE118001B67FB /* WebImage.framework */; };
 		A318616AF7275D9B048CE57F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8EC20F173B514BB15EFF9CC /* Images.xcassets */; };
 		BBCF316FD127D7B343B94197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8987BC7925A4A2D1D8D660C /* Main.storyboard */; };
 		C4FEF63B1471E6AD3F722AFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB3C4CA3B0AAA0A0B2297890 /* LaunchScreen.xib */; };
@@ -83,7 +99,6 @@
 		68E87A1C1D1D799F001B67FB /* Async.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Async.framework; path = Carthage/Build/iOS/Async.framework; sourceTree = "<group>"; };
 		68E87A1D1D1D799F001B67FB /* Dollar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Dollar.framework; path = Carthage/Build/iOS/Dollar.framework; sourceTree = "<group>"; };
 		68E87A1E1D1D799F001B67FB /* Haneke.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Haneke.framework; path = Carthage/Build/iOS/Haneke.framework; sourceTree = "<group>"; };
-		68E87A1F1D1D799F001B67FB /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 		68E87A201D1D799F001B67FB /* Material.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Material.framework; path = Carthage/Build/iOS/Material.framework; sourceTree = "<group>"; };
 		68E87A211D1D799F001B67FB /* Neon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Neon.framework; path = Carthage/Build/iOS/Neon.framework; sourceTree = "<group>"; };
 		68E87A221D1D799F001B67FB /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
@@ -106,6 +121,24 @@
 		68E87AA21D1ED449001B67FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68E87AB21D1ED8BD001B67FB /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		68E87AB51D1ED996001B67FB /* RollingFileLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollingFileLogger.swift; sourceTree = "<group>"; };
+		68E87AB81D1EDAB5001B67FB /* AlamofireExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireExtensions.swift; sourceTree = "<group>"; };
+		68E87AB91D1EDAB5001B67FB /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		68E87ABA1D1EDAB5001B67FB /* GeometryExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryExtensions.swift; sourceTree = "<group>"; };
+		68E87ABC1D1EDAB5001B67FB /* HexExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexExtensions.swift; sourceTree = "<group>"; };
+		68E87ABD1D1EDAB5001B67FB /* NSCharacterSetExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSCharacterSetExtensions.swift; sourceTree = "<group>"; };
+		68E87ABE1D1EDAB5001B67FB /* NSFileManagerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSFileManagerExtensions.swift; sourceTree = "<group>"; };
+		68E87ABF1D1EDAB5001B67FB /* NSMutableAttributedStringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSMutableAttributedStringExtensions.swift; sourceTree = "<group>"; };
+		68E87AC01D1EDAB5001B67FB /* NSScannerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSScannerExtensions.swift; sourceTree = "<group>"; };
+		68E87AC11D1EDAB5001B67FB /* NSStringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSStringExtensions.swift; sourceTree = "<group>"; };
+		68E87AC21D1EDAB5001B67FB /* NSURLExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSURLExtensions.swift; sourceTree = "<group>"; };
+		68E87AC31D1EDAB5001B67FB /* NSURLProtectionSpaceExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSURLProtectionSpaceExtensions.swift; sourceTree = "<group>"; };
+		68E87AC41D1EDAB5001B67FB /* SetExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetExtensions.swift; sourceTree = "<group>"; };
+		68E87AC51D1EDAB5001B67FB /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		68E87AC61D1EDAB5001B67FB /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		68E87AC71D1EDAB5001B67FB /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		68E87AC81D1EDAB5001B67FB /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		68E87ADA1D1EE118001B67FB /* WebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebImage.framework; path = Carthage/Build/iOS/WebImage.framework; sourceTree = "<group>"; };
+		68E87AE31D1EE770001B67FB /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		72E613607AC69214BBEE151A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74AB9E09EFAB834174F93117 /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		7BE7F5996C30645953918C6D /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68E87AB41D1ED938001B67FB /* XCGLogger.framework in Frameworks */,
+				68E87ADB1D1EE118001B67FB /* WebImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +174,6 @@
 				68E87A391D1D799F001B67FB /* ObjectMapper.framework in Frameworks */,
 				68E87A3F1D1D799F001B67FB /* RxBlocking.framework in Frameworks */,
 				68E87A451D1D799F001B67FB /* SwiftyJSON.framework in Frameworks */,
-				68E87A361D1D799F001B67FB /* Kingfisher.framework in Frameworks */,
 				68E87A3D1D1D799F001B67FB /* Realm.framework in Frameworks */,
 				68E87A331D1D799F001B67FB /* Async.framework in Frameworks */,
 				68E87A351D1D799F001B67FB /* Haneke.framework in Frameworks */,
@@ -175,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				72E613607AC69214BBEE151A /* Info.plist */,
+				68E87AE31D1EE770001B67FB /* Bridging-Header.h */,
 			);
 			path = "Other-Sources";
 			sourceTree = "<group>";
@@ -198,10 +232,34 @@
 		68E87AB11D1ED8BD001B67FB /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				68E87AB71D1EDAB5001B67FB /* Extensions */,
 				68E87AB21D1ED8BD001B67FB /* Logger.swift */,
 				68E87AB51D1ED996001B67FB /* RollingFileLogger.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		68E87AB71D1EDAB5001B67FB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				68E87AB81D1EDAB5001B67FB /* AlamofireExtensions.swift */,
+				68E87AB91D1EDAB5001B67FB /* ArrayExtensions.swift */,
+				68E87ABA1D1EDAB5001B67FB /* GeometryExtensions.swift */,
+				68E87ABC1D1EDAB5001B67FB /* HexExtensions.swift */,
+				68E87ABD1D1EDAB5001B67FB /* NSCharacterSetExtensions.swift */,
+				68E87ABE1D1EDAB5001B67FB /* NSFileManagerExtensions.swift */,
+				68E87ABF1D1EDAB5001B67FB /* NSMutableAttributedStringExtensions.swift */,
+				68E87AC01D1EDAB5001B67FB /* NSScannerExtensions.swift */,
+				68E87AC11D1EDAB5001B67FB /* NSStringExtensions.swift */,
+				68E87AC21D1EDAB5001B67FB /* NSURLExtensions.swift */,
+				68E87AC31D1EDAB5001B67FB /* NSURLProtectionSpaceExtensions.swift */,
+				68E87AC41D1EDAB5001B67FB /* SetExtensions.swift */,
+				68E87AC51D1EDAB5001B67FB /* StringExtensions.swift */,
+				68E87AC61D1EDAB5001B67FB /* UIColorExtensions.swift */,
+				68E87AC71D1EDAB5001B67FB /* UIImageExtensions.swift */,
+				68E87AC81D1EDAB5001B67FB /* UIViewExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		6C0FB5210A4A89E192295230 /* Models */ = {
@@ -348,7 +406,6 @@
 				68E87A1C1D1D799F001B67FB /* Async.framework */,
 				68E87A1D1D1D799F001B67FB /* Dollar.framework */,
 				68E87A1E1D1D799F001B67FB /* Haneke.framework */,
-				68E87A1F1D1D799F001B67FB /* Kingfisher.framework */,
 				68E87A201D1D799F001B67FB /* Material.framework */,
 				68E87A211D1D799F001B67FB /* Neon.framework */,
 				68E87A221D1D799F001B67FB /* ObjectMapper.framework */,
@@ -365,6 +422,7 @@
 				68E87A2D1D1D799F001B67FB /* SwiftMoment.framework */,
 				68E87A2E1D1D799F001B67FB /* SwiftyJSON.framework */,
 				68E87A2F1D1D799F001B67FB /* SwiftyUserDefaults.framework */,
+				68E87ADA1D1EE118001B67FB /* WebImage.framework */,
 				68E87A301D1D799F001B67FB /* XCGLogger.framework */,
 			);
 			name = iOS;
@@ -449,7 +507,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SB;
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = sandbox.io;
 				TargetAttributes = {
@@ -531,7 +589,6 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Async.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Dollar.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Haneke.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Material.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Neon.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
@@ -549,6 +606,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftyUserDefaults.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/XCGLogger.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/WebImage.framework",
 			);
 			name = "Copy frameworks (Carthage)";
 			outputPaths = (
@@ -586,8 +644,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68E87AD01D1EDAB5001B67FB /* NSMutableAttributedStringExtensions.swift in Sources */,
+				68E87AD31D1EDAB5001B67FB /* NSURLExtensions.swift in Sources */,
 				68E87AB31D1ED8BD001B67FB /* Logger.swift in Sources */,
+				68E87ACB1D1EDAB5001B67FB /* GeometryExtensions.swift in Sources */,
+				68E87AD21D1EDAB5001B67FB /* NSStringExtensions.swift in Sources */,
+				68E87ACF1D1EDAB5001B67FB /* NSFileManagerExtensions.swift in Sources */,
 				68E87AB61D1ED996001B67FB /* RollingFileLogger.swift in Sources */,
+				68E87AD11D1EDAB5001B67FB /* NSScannerExtensions.swift in Sources */,
+				68E87AD71D1EDAB5001B67FB /* UIColorExtensions.swift in Sources */,
+				68E87AD81D1EDAB5001B67FB /* UIImageExtensions.swift in Sources */,
+				68E87AD91D1EDAB5001B67FB /* UIViewExtensions.swift in Sources */,
+				68E87AD61D1EDAB5001B67FB /* StringExtensions.swift in Sources */,
+				68E87AD41D1EDAB5001B67FB /* NSURLProtectionSpaceExtensions.swift in Sources */,
+				68E87ACE1D1EDAB5001B67FB /* NSCharacterSetExtensions.swift in Sources */,
+				68E87ACD1D1EDAB5001B67FB /* HexExtensions.swift in Sources */,
+				68E87AC91D1EDAB5001B67FB /* AlamofireExtensions.swift in Sources */,
+				68E87ACA1D1EDAB5001B67FB /* ArrayExtensions.swift in Sources */,
+				68E87AD51D1EDAB5001B67FB /* SetExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,6 +735,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/matome-news/Resources/Other-Sources/Bridging-Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -709,6 +784,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CURRENT_PROJECT_VERSION = 1;
@@ -733,6 +809,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.sandbox.Shared;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -744,6 +821,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				COPY_PHASE_STRIP = NO;
@@ -769,6 +847,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.sandbox.Shared;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -870,6 +949,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/matome-news/Resources/Other-Sources/Bridging-Header.h";
 			};
 			name = Debug;
 		};
