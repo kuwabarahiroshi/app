@@ -3,5 +3,4 @@
 
 
 
-carthage update
-
+carthage update --platform iOS
