@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6857E75A1D21528A00AE70D5 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857E7591D21528A00AE70D5 /* IntroViewController.swift */; };
 		6857E75C1D2152C700AE70D5 /* Intro.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6857E75B1D2152C700AE70D5 /* Intro.xcassets */; };
+		6857E7631D25655300AE70D5 /* Cleanse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6857E7601D25655200AE70D5 /* Cleanse.framework */; };
+		6857E7641D25655300AE70D5 /* URLNavigator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6857E7611D25655200AE70D5 /* URLNavigator.framework */; };
 		68E87A311D1D799F001B67FB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E87A1A1D1D799F001B67FB /* Alamofire.framework */; };
 		68E87A321D1D799F001B67FB /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E87A1B1D1D799F001B67FB /* AlamofireObjectMapper.framework */; };
 		68E87A331D1D799F001B67FB /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E87A1C1D1D799F001B67FB /* Async.framework */; };
@@ -98,6 +100,8 @@
 		3C003A730376CD6BBB6C201F /* Settings.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		6857E7591D21528A00AE70D5 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		6857E75B1D2152C700AE70D5 /* Intro.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Intro.xcassets; sourceTree = "<group>"; };
+		6857E7601D25655200AE70D5 /* Cleanse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cleanse.framework; path = Carthage/Build/iOS/Cleanse.framework; sourceTree = "<group>"; };
+		6857E7611D25655200AE70D5 /* URLNavigator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = URLNavigator.framework; path = Carthage/Build/iOS/URLNavigator.framework; sourceTree = "<group>"; };
 		68E87A1A1D1D799F001B67FB /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		68E87A1B1D1D799F001B67FB /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = Carthage/Build/iOS/AlamofireObjectMapper.framework; sourceTree = "<group>"; };
 		68E87A1C1D1D799F001B67FB /* Async.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Async.framework; path = Carthage/Build/iOS/Async.framework; sourceTree = "<group>"; };
@@ -174,12 +178,14 @@
 			files = (
 				68E87A441D1D799F001B67FB /* SwiftMoment.framework in Frameworks */,
 				68E87A381D1D799F001B67FB /* Neon.framework in Frameworks */,
+				6857E7641D25655300AE70D5 /* URLNavigator.framework in Frameworks */,
 				68E87A411D1D799F001B67FB /* RxSwift.framework in Frameworks */,
 				68E87A391D1D799F001B67FB /* ObjectMapper.framework in Frameworks */,
 				68E87A3F1D1D799F001B67FB /* RxBlocking.framework in Frameworks */,
 				68E87A451D1D799F001B67FB /* SwiftyJSON.framework in Frameworks */,
 				68E87A3D1D1D799F001B67FB /* Realm.framework in Frameworks */,
 				68E87A331D1D799F001B67FB /* Async.framework in Frameworks */,
+				6857E7631D25655300AE70D5 /* Cleanse.framework in Frameworks */,
 				68E87A351D1D799F001B67FB /* Haneke.framework in Frameworks */,
 				68E87A401D1D799F001B67FB /* RxCocoa.framework in Frameworks */,
 				68E87A461D1D799F001B67FB /* SwiftyUserDefaults.framework in Frameworks */,
@@ -410,6 +416,7 @@
 				68E87A1A1D1D799F001B67FB /* Alamofire.framework */,
 				68E87A1B1D1D799F001B67FB /* AlamofireObjectMapper.framework */,
 				68E87A1C1D1D799F001B67FB /* Async.framework */,
+				6857E7601D25655200AE70D5 /* Cleanse.framework */,
 				68E87A1D1D1D799F001B67FB /* Dollar.framework */,
 				68E87A1E1D1D799F001B67FB /* Haneke.framework */,
 				68E87A201D1D799F001B67FB /* Material.framework */,
@@ -428,6 +435,7 @@
 				68E87A2D1D1D799F001B67FB /* SwiftMoment.framework */,
 				68E87A2E1D1D799F001B67FB /* SwiftyJSON.framework */,
 				68E87A2F1D1D799F001B67FB /* SwiftyUserDefaults.framework */,
+				6857E7611D25655200AE70D5 /* URLNavigator.framework */,
 				68E87ADA1D1EE118001B67FB /* WebImage.framework */,
 				68E87A301D1D799F001B67FB /* XCGLogger.framework */,
 			);
@@ -608,6 +616,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/AlamofireObjectMapper.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Async.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Cleanse.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Dollar.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Haneke.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Material.framework",
@@ -626,6 +635,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftMoment.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftyUserDefaults.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/URLNavigator.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/XCGLogger.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/WebImage.framework",
 			);
