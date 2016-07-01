@@ -11,6 +11,25 @@
 		6857E75C1D2152C700AE70D5 /* Intro.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6857E75B1D2152C700AE70D5 /* Intro.xcassets */; };
 		6857E7631D25655300AE70D5 /* Cleanse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6857E7601D25655200AE70D5 /* Cleanse.framework */; };
 		6857E7641D25655300AE70D5 /* URLNavigator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6857E7611D25655200AE70D5 /* URLNavigator.framework */; };
+		6857E7761D26444800AE70D5 /* AlamofireExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857E7661D26444800AE70D5 /* AlamofireExtensions.swift */; };
+		6857E7771D26444800AE70D5 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857E7671D26444800AE70D5 /* ArrayExtensions.swift */; };
+		6857E7781D26444800AE70D5 /* GeometryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857E7681D26444800AE70D5 /* GeometryExtensions.swift */; };
+		6857E7791D26444800AE70D5 /* HexExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857E7691D26444800AE70D5 /* HexExtensions.swift */; };
+		6857E77A1D26444800AE70D5 /* NSCharacterSetExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857E76A1D26444800AE70D5 /* NSCharacterSetExtensions.swift */; };
+		6857E77B1D26444800AE70D5 /* NSFileManagerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857E76B1D26444800AE70D5 /* NSFileManagerExtensions.swift */; };
+		6857E77C1D26444800AE70D5 /* NSMutableAttributedStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857E76C1D26444800AE70D5 /* NSMutableAttributedStringExtensions.swift */; };
+		6857E77D1D26444800AE70D5 /* NSScannerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857E76D1D26444800AE70D5 /* NSScannerExtensions.swift */; };
+		6857E77E1D26444800AE70D5 /* NSStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857E76E1D26444800AE70D5 /* NSStringExtensions.swift */; };
+		6857E77F1D26444800AE70D5 /* NSURLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857E76F1D26444800AE70D5 /* NSURLExtensions.swift */; };
+		6857E7801D26444800AE70D5 /* NSURLProtectionSpaceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857E7701D26444800AE70D5 /* NSURLProtectionSpaceExtensions.swift */; };
+		6857E7811D26444800AE70D5 /* SetExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857E7711D26444800AE70D5 /* SetExtensions.swift */; };
+		6857E7821D26444800AE70D5 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857E7721D26444800AE70D5 /* StringExtensions.swift */; };
+		6857E7831D26444800AE70D5 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857E7731D26444800AE70D5 /* UIColorExtensions.swift */; };
+		6857E7841D26444800AE70D5 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857E7741D26444800AE70D5 /* UIImageExtensions.swift */; };
+		6857E7851D26444800AE70D5 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857E7751D26444800AE70D5 /* UIViewExtensions.swift */; };
+		6857E7881D26445C00AE70D5 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857E7861D26445C00AE70D5 /* Logger.swift */; };
+		6857E7891D26445C00AE70D5 /* RollingFileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857E7871D26445C00AE70D5 /* RollingFileLogger.swift */; };
+		6857E78D1D26466800AE70D5 /* DynamicFontHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6857E78A1D26454500AE70D5 /* DynamicFontHelper.swift */; };
 		68E87A311D1D799F001B67FB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E87A1A1D1D799F001B67FB /* Alamofire.framework */; };
 		68E87A321D1D799F001B67FB /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E87A1B1D1D799F001B67FB /* AlamofireObjectMapper.framework */; };
 		68E87A331D1D799F001B67FB /* Async.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E87A1C1D1D799F001B67FB /* Async.framework */; };
@@ -36,25 +55,7 @@
 		68E87AA11D1ED449001B67FB /* Shared.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E87AA01D1ED449001B67FB /* Shared.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68E87AA51D1ED449001B67FB /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E87A9E1D1ED449001B67FB /* Shared.framework */; };
 		68E87AA61D1ED449001B67FB /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 68E87A9E1D1ED449001B67FB /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		68E87AB31D1ED8BD001B67FB /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AB21D1ED8BD001B67FB /* Logger.swift */; };
 		68E87AB41D1ED938001B67FB /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E87A301D1D799F001B67FB /* XCGLogger.framework */; };
-		68E87AB61D1ED996001B67FB /* RollingFileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AB51D1ED996001B67FB /* RollingFileLogger.swift */; };
-		68E87AC91D1EDAB5001B67FB /* AlamofireExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AB81D1EDAB5001B67FB /* AlamofireExtensions.swift */; };
-		68E87ACA1D1EDAB5001B67FB /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AB91D1EDAB5001B67FB /* ArrayExtensions.swift */; };
-		68E87ACB1D1EDAB5001B67FB /* GeometryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87ABA1D1EDAB5001B67FB /* GeometryExtensions.swift */; };
-		68E87ACD1D1EDAB5001B67FB /* HexExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87ABC1D1EDAB5001B67FB /* HexExtensions.swift */; };
-		68E87ACE1D1EDAB5001B67FB /* NSCharacterSetExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87ABD1D1EDAB5001B67FB /* NSCharacterSetExtensions.swift */; };
-		68E87ACF1D1EDAB5001B67FB /* NSFileManagerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87ABE1D1EDAB5001B67FB /* NSFileManagerExtensions.swift */; };
-		68E87AD01D1EDAB5001B67FB /* NSMutableAttributedStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87ABF1D1EDAB5001B67FB /* NSMutableAttributedStringExtensions.swift */; };
-		68E87AD11D1EDAB5001B67FB /* NSScannerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AC01D1EDAB5001B67FB /* NSScannerExtensions.swift */; };
-		68E87AD21D1EDAB5001B67FB /* NSStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AC11D1EDAB5001B67FB /* NSStringExtensions.swift */; };
-		68E87AD31D1EDAB5001B67FB /* NSURLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AC21D1EDAB5001B67FB /* NSURLExtensions.swift */; };
-		68E87AD41D1EDAB5001B67FB /* NSURLProtectionSpaceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AC31D1EDAB5001B67FB /* NSURLProtectionSpaceExtensions.swift */; };
-		68E87AD51D1EDAB5001B67FB /* SetExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AC41D1EDAB5001B67FB /* SetExtensions.swift */; };
-		68E87AD61D1EDAB5001B67FB /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AC51D1EDAB5001B67FB /* StringExtensions.swift */; };
-		68E87AD71D1EDAB5001B67FB /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AC61D1EDAB5001B67FB /* UIColorExtensions.swift */; };
-		68E87AD81D1EDAB5001B67FB /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AC71D1EDAB5001B67FB /* UIImageExtensions.swift */; };
-		68E87AD91D1EDAB5001B67FB /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E87AC81D1EDAB5001B67FB /* UIViewExtensions.swift */; };
 		68E87ADB1D1EE118001B67FB /* WebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E87ADA1D1EE118001B67FB /* WebImage.framework */; };
 		A318616AF7275D9B048CE57F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8EC20F173B514BB15EFF9CC /* Images.xcassets */; };
 		BBCF316FD127D7B343B94197 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8987BC7925A4A2D1D8D660C /* Main.storyboard */; };
@@ -98,10 +99,29 @@
 		0953FB075EE9BEB0306844EC /* matome-news.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "matome-news.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE768FA1DB65DBA59F50D68 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C003A730376CD6BBB6C201F /* Settings.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		6857E7591D21528A00AE70D5 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		6857E7591D21528A00AE70D5 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; usesTabs = 1; };
 		6857E75B1D2152C700AE70D5 /* Intro.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Intro.xcassets; sourceTree = "<group>"; };
 		6857E7601D25655200AE70D5 /* Cleanse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cleanse.framework; path = Carthage/Build/iOS/Cleanse.framework; sourceTree = "<group>"; };
 		6857E7611D25655200AE70D5 /* URLNavigator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = URLNavigator.framework; path = Carthage/Build/iOS/URLNavigator.framework; sourceTree = "<group>"; };
+		6857E7661D26444800AE70D5 /* AlamofireExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireExtensions.swift; sourceTree = "<group>"; };
+		6857E7671D26444800AE70D5 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		6857E7681D26444800AE70D5 /* GeometryExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryExtensions.swift; sourceTree = "<group>"; };
+		6857E7691D26444800AE70D5 /* HexExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexExtensions.swift; sourceTree = "<group>"; };
+		6857E76A1D26444800AE70D5 /* NSCharacterSetExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSCharacterSetExtensions.swift; sourceTree = "<group>"; };
+		6857E76B1D26444800AE70D5 /* NSFileManagerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSFileManagerExtensions.swift; sourceTree = "<group>"; };
+		6857E76C1D26444800AE70D5 /* NSMutableAttributedStringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSMutableAttributedStringExtensions.swift; sourceTree = "<group>"; };
+		6857E76D1D26444800AE70D5 /* NSScannerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSScannerExtensions.swift; sourceTree = "<group>"; };
+		6857E76E1D26444800AE70D5 /* NSStringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSStringExtensions.swift; sourceTree = "<group>"; };
+		6857E76F1D26444800AE70D5 /* NSURLExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSURLExtensions.swift; sourceTree = "<group>"; };
+		6857E7701D26444800AE70D5 /* NSURLProtectionSpaceExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSURLProtectionSpaceExtensions.swift; sourceTree = "<group>"; };
+		6857E7711D26444800AE70D5 /* SetExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetExtensions.swift; sourceTree = "<group>"; };
+		6857E7721D26444800AE70D5 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		6857E7731D26444800AE70D5 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		6857E7741D26444800AE70D5 /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		6857E7751D26444800AE70D5 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		6857E7861D26445C00AE70D5 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		6857E7871D26445C00AE70D5 /* RollingFileLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollingFileLogger.swift; sourceTree = "<group>"; };
+		6857E78A1D26454500AE70D5 /* DynamicFontHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynamicFontHelper.swift; path = ../Shared/DynamicFontHelper.swift; sourceTree = "<group>"; };
 		68E87A1A1D1D799F001B67FB /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		68E87A1B1D1D799F001B67FB /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = Carthage/Build/iOS/AlamofireObjectMapper.framework; sourceTree = "<group>"; };
 		68E87A1C1D1D799F001B67FB /* Async.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Async.framework; path = Carthage/Build/iOS/Async.framework; sourceTree = "<group>"; };
@@ -127,24 +147,6 @@
 		68E87A9E1D1ED449001B67FB /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E87AA01D1ED449001B67FB /* Shared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shared.h; sourceTree = "<group>"; };
 		68E87AA21D1ED449001B67FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68E87AB21D1ED8BD001B67FB /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
-		68E87AB51D1ED996001B67FB /* RollingFileLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollingFileLogger.swift; sourceTree = "<group>"; };
-		68E87AB81D1EDAB5001B67FB /* AlamofireExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireExtensions.swift; sourceTree = "<group>"; };
-		68E87AB91D1EDAB5001B67FB /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
-		68E87ABA1D1EDAB5001B67FB /* GeometryExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryExtensions.swift; sourceTree = "<group>"; };
-		68E87ABC1D1EDAB5001B67FB /* HexExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexExtensions.swift; sourceTree = "<group>"; };
-		68E87ABD1D1EDAB5001B67FB /* NSCharacterSetExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSCharacterSetExtensions.swift; sourceTree = "<group>"; };
-		68E87ABE1D1EDAB5001B67FB /* NSFileManagerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSFileManagerExtensions.swift; sourceTree = "<group>"; };
-		68E87ABF1D1EDAB5001B67FB /* NSMutableAttributedStringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSMutableAttributedStringExtensions.swift; sourceTree = "<group>"; };
-		68E87AC01D1EDAB5001B67FB /* NSScannerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSScannerExtensions.swift; sourceTree = "<group>"; };
-		68E87AC11D1EDAB5001B67FB /* NSStringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSStringExtensions.swift; sourceTree = "<group>"; };
-		68E87AC21D1EDAB5001B67FB /* NSURLExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSURLExtensions.swift; sourceTree = "<group>"; };
-		68E87AC31D1EDAB5001B67FB /* NSURLProtectionSpaceExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSURLProtectionSpaceExtensions.swift; sourceTree = "<group>"; };
-		68E87AC41D1EDAB5001B67FB /* SetExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetExtensions.swift; sourceTree = "<group>"; };
-		68E87AC51D1EDAB5001B67FB /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
-		68E87AC61D1EDAB5001B67FB /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
-		68E87AC71D1EDAB5001B67FB /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
-		68E87AC81D1EDAB5001B67FB /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		68E87ADA1D1EE118001B67FB /* WebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebImage.framework; path = Carthage/Build/iOS/WebImage.framework; sourceTree = "<group>"; };
 		68E87AE31D1EE770001B67FB /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		72E613607AC69214BBEE151A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -230,46 +232,47 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		6857E7651D26444800AE70D5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6857E7661D26444800AE70D5 /* AlamofireExtensions.swift */,
+				6857E7671D26444800AE70D5 /* ArrayExtensions.swift */,
+				6857E7681D26444800AE70D5 /* GeometryExtensions.swift */,
+				6857E7691D26444800AE70D5 /* HexExtensions.swift */,
+				6857E76A1D26444800AE70D5 /* NSCharacterSetExtensions.swift */,
+				6857E76B1D26444800AE70D5 /* NSFileManagerExtensions.swift */,
+				6857E76C1D26444800AE70D5 /* NSMutableAttributedStringExtensions.swift */,
+				6857E76D1D26444800AE70D5 /* NSScannerExtensions.swift */,
+				6857E76E1D26444800AE70D5 /* NSStringExtensions.swift */,
+				6857E76F1D26444800AE70D5 /* NSURLExtensions.swift */,
+				6857E7701D26444800AE70D5 /* NSURLProtectionSpaceExtensions.swift */,
+				6857E7711D26444800AE70D5 /* SetExtensions.swift */,
+				6857E7721D26444800AE70D5 /* StringExtensions.swift */,
+				6857E7731D26444800AE70D5 /* UIColorExtensions.swift */,
+				6857E7741D26444800AE70D5 /* UIImageExtensions.swift */,
+				6857E7751D26444800AE70D5 /* UIViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6857E78C1D26462800AE70D5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6857E78A1D26454500AE70D5 /* DynamicFontHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		68E87A9F1D1ED449001B67FB /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				68E87AA01D1ED449001B67FB /* Shared.h */,
+				6857E7651D26444800AE70D5 /* Extensions */,
 				68E87AA21D1ED449001B67FB /* Info.plist */,
+				6857E7861D26445C00AE70D5 /* Logger.swift */,
+				6857E7871D26445C00AE70D5 /* RollingFileLogger.swift */,
+				68E87AA01D1ED449001B67FB /* Shared.h */,
 			);
 			path = Shared;
-			sourceTree = "<group>";
-		};
-		68E87AB11D1ED8BD001B67FB /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				68E87AB71D1EDAB5001B67FB /* Extensions */,
-				68E87AB21D1ED8BD001B67FB /* Logger.swift */,
-				68E87AB51D1ED996001B67FB /* RollingFileLogger.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		68E87AB71D1EDAB5001B67FB /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				68E87AB81D1EDAB5001B67FB /* AlamofireExtensions.swift */,
-				68E87AB91D1EDAB5001B67FB /* ArrayExtensions.swift */,
-				68E87ABA1D1EDAB5001B67FB /* GeometryExtensions.swift */,
-				68E87ABC1D1EDAB5001B67FB /* HexExtensions.swift */,
-				68E87ABD1D1EDAB5001B67FB /* NSCharacterSetExtensions.swift */,
-				68E87ABE1D1EDAB5001B67FB /* NSFileManagerExtensions.swift */,
-				68E87ABF1D1EDAB5001B67FB /* NSMutableAttributedStringExtensions.swift */,
-				68E87AC01D1EDAB5001B67FB /* NSScannerExtensions.swift */,
-				68E87AC11D1EDAB5001B67FB /* NSStringExtensions.swift */,
-				68E87AC21D1EDAB5001B67FB /* NSURLExtensions.swift */,
-				68E87AC31D1EDAB5001B67FB /* NSURLProtectionSpaceExtensions.swift */,
-				68E87AC41D1EDAB5001B67FB /* SetExtensions.swift */,
-				68E87AC51D1EDAB5001B67FB /* StringExtensions.swift */,
-				68E87AC61D1EDAB5001B67FB /* UIColorExtensions.swift */,
-				68E87AC71D1EDAB5001B67FB /* UIImageExtensions.swift */,
-				68E87AC81D1EDAB5001B67FB /* UIViewExtensions.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 		6C0FB5210A4A89E192295230 /* Models */ = {
@@ -350,7 +353,6 @@
 				68E87A9F1D1ED449001B67FB /* Shared */,
 				94FA404B6C21D3BCA1E3ADA4 /* Frameworks */,
 				D781832B8D3699B281359EFF /* Products */,
-				68E87AB11D1ED8BD001B67FB /* Utils */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -386,6 +388,7 @@
 		F3202EDCA0A132AAE8164B01 /* matome-news */ = {
 			isa = PBXGroup;
 			children = (
+				6857E78C1D26462800AE70D5 /* Helpers */,
 				65C9FE7CD6A6C3AD49C4B9D6 /* Extensions */,
 				5891937D276B38FB1189D37F /* Protocols */,
 				6C0FB5210A4A89E192295230 /* Models */,
@@ -667,6 +670,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6857E78D1D26466800AE70D5 /* DynamicFontHelper.swift in Sources */,
 				DE32892D1F07AD04DEA476B4 /* AppDelegate.swift in Sources */,
 				6857E75A1D21528A00AE70D5 /* IntroViewController.swift in Sources */,
 			);
@@ -676,24 +680,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68E87AD01D1EDAB5001B67FB /* NSMutableAttributedStringExtensions.swift in Sources */,
-				68E87AD31D1EDAB5001B67FB /* NSURLExtensions.swift in Sources */,
-				68E87AB31D1ED8BD001B67FB /* Logger.swift in Sources */,
-				68E87ACB1D1EDAB5001B67FB /* GeometryExtensions.swift in Sources */,
-				68E87AD21D1EDAB5001B67FB /* NSStringExtensions.swift in Sources */,
-				68E87ACF1D1EDAB5001B67FB /* NSFileManagerExtensions.swift in Sources */,
-				68E87AB61D1ED996001B67FB /* RollingFileLogger.swift in Sources */,
-				68E87AD11D1EDAB5001B67FB /* NSScannerExtensions.swift in Sources */,
-				68E87AD71D1EDAB5001B67FB /* UIColorExtensions.swift in Sources */,
-				68E87AD81D1EDAB5001B67FB /* UIImageExtensions.swift in Sources */,
-				68E87AD91D1EDAB5001B67FB /* UIViewExtensions.swift in Sources */,
-				68E87AD61D1EDAB5001B67FB /* StringExtensions.swift in Sources */,
-				68E87AD41D1EDAB5001B67FB /* NSURLProtectionSpaceExtensions.swift in Sources */,
-				68E87ACE1D1EDAB5001B67FB /* NSCharacterSetExtensions.swift in Sources */,
-				68E87ACD1D1EDAB5001B67FB /* HexExtensions.swift in Sources */,
-				68E87AC91D1EDAB5001B67FB /* AlamofireExtensions.swift in Sources */,
-				68E87ACA1D1EDAB5001B67FB /* ArrayExtensions.swift in Sources */,
-				68E87AD51D1EDAB5001B67FB /* SetExtensions.swift in Sources */,
+				6857E7801D26444800AE70D5 /* NSURLProtectionSpaceExtensions.swift in Sources */,
+				6857E7831D26444800AE70D5 /* UIColorExtensions.swift in Sources */,
+				6857E77F1D26444800AE70D5 /* NSURLExtensions.swift in Sources */,
+				6857E7761D26444800AE70D5 /* AlamofireExtensions.swift in Sources */,
+				6857E7771D26444800AE70D5 /* ArrayExtensions.swift in Sources */,
+				6857E77B1D26444800AE70D5 /* NSFileManagerExtensions.swift in Sources */,
+				6857E77E1D26444800AE70D5 /* NSStringExtensions.swift in Sources */,
+				6857E77A1D26444800AE70D5 /* NSCharacterSetExtensions.swift in Sources */,
+				6857E7881D26445C00AE70D5 /* Logger.swift in Sources */,
+				6857E77C1D26444800AE70D5 /* NSMutableAttributedStringExtensions.swift in Sources */,
+				6857E7781D26444800AE70D5 /* GeometryExtensions.swift in Sources */,
+				6857E7891D26445C00AE70D5 /* RollingFileLogger.swift in Sources */,
+				6857E7851D26444800AE70D5 /* UIViewExtensions.swift in Sources */,
+				6857E7791D26444800AE70D5 /* HexExtensions.swift in Sources */,
+				6857E7811D26444800AE70D5 /* SetExtensions.swift in Sources */,
+				6857E7841D26444800AE70D5 /* UIImageExtensions.swift in Sources */,
+				6857E7821D26444800AE70D5 /* StringExtensions.swift in Sources */,
+				6857E77D1D26444800AE70D5 /* NSScannerExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -835,7 +839,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = Shared/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = io.sandbox.Shared;
@@ -873,7 +877,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				INFOPLIST_FILE = Shared/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = io.sandbox.Shared;
@@ -898,6 +902,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "matome-news/Resources/Other-Sources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.sandbox.${PRODUCT_NAME:rfc1034identifier}";
@@ -919,6 +924,7 @@
 				);
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "matome-news/Resources/Other-Sources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.sandbox.${PRODUCT_NAME:rfc1034identifier}";
