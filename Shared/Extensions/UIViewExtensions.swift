@@ -11,7 +11,7 @@ extension UIView {
     func screenshot(size: CGSize, offset: CGPoint? = nil, quality: CGFloat = 1) -> UIImage? {
         assert(0...1 ~= quality)
 
-        let offset = offset ?? CGPointMake(0, 0)
+        let offset = offset ?? CGPoint(x: 0, y: 0)
 
         UIGraphicsBeginImageContextWithOptions(size, false, UIScreen.mainScreen().scale * quality)
         drawViewHierarchyInRect(CGRect(origin: offset, size: frame.size), afterScreenUpdates: false)
@@ -46,7 +46,7 @@ extension UIView {
         return screenshot(size, offset: offset, quality: quality)
     }
 
-    /* 
+    /*
      * Performs a deep copy of the view. Does not copy constraints.
      */
     func clone() -> UIView {

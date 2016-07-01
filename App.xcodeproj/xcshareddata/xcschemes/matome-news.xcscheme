@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "51F519E5BE7DDD73DD1A4D60"
-               BuildableName = "matome-news.app"
-               BlueprintName = "matome-news"
-               ReferencedContainer = "container:matome-news.xcodeproj">
+               BuildableName = "App.app"
+               BlueprintName = "App"
+               ReferencedContainer = "container:App.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "239D65B74CEF793601DDE32E"
                BuildableName = "UnitTests.xctest"
                BlueprintName = "UnitTests"
-               ReferencedContainer = "container:matome-news.xcodeproj">
+               ReferencedContainer = "container:App.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "51F519E5BE7DDD73DD1A4D60"
-            BuildableName = "matome-news.app"
-            BlueprintName = "matome-news"
-            ReferencedContainer = "container:matome-news.xcodeproj">
+            BuildableName = "App.app"
+            BlueprintName = "App"
+            ReferencedContainer = "container:App.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "51F519E5BE7DDD73DD1A4D60"
-            BuildableName = "matome-news.app"
-            BlueprintName = "matome-news"
-            ReferencedContainer = "container:matome-news.xcodeproj">
+            BuildableName = "App.app"
+            BlueprintName = "App"
+            ReferencedContainer = "container:App.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "51F519E5BE7DDD73DD1A4D60"
-            BuildableName = "matome-news.app"
-            BlueprintName = "matome-news"
-            ReferencedContainer = "container:matome-news.xcodeproj">
+            BuildableName = "App.app"
+            BlueprintName = "App"
+            ReferencedContainer = "container:App.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

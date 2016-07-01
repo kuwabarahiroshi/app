@@ -96,10 +96,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0953FB075EE9BEB0306844EC /* matome-news.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "matome-news.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0953FB075EE9BEB0306844EC /* matome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = matome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE768FA1DB65DBA59F50D68 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C003A730376CD6BBB6C201F /* Settings.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		6857E7591D21528A00AE70D5 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; usesTabs = 1; };
+		6857E7591D21528A00AE70D5 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 		6857E75B1D2152C700AE70D5 /* Intro.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Intro.xcassets; sourceTree = "<group>"; };
 		6857E7601D25655200AE70D5 /* Cleanse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cleanse.framework; path = Carthage/Build/iOS/Cleanse.framework; sourceTree = "<group>"; };
 		6857E7611D25655200AE70D5 /* URLNavigator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = URLNavigator.framework; path = Carthage/Build/iOS/URLNavigator.framework; sourceTree = "<group>"; };
@@ -348,7 +348,7 @@
 		C070FE8E7D53AEBD1DD6C104 = {
 			isa = PBXGroup;
 			children = (
-				F3202EDCA0A132AAE8164B01 /* matome-news */,
+				F3202EDCA0A132AAE8164B01 /* App */,
 				BD5A4FE14D3C8A9973943011 /* UnitTests */,
 				68E87A9F1D1ED449001B67FB /* Shared */,
 				94FA404B6C21D3BCA1E3ADA4 /* Frameworks */,
@@ -362,7 +362,7 @@
 		D781832B8D3699B281359EFF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0953FB075EE9BEB0306844EC /* matome-news.app */,
+				0953FB075EE9BEB0306844EC /* matome.app */,
 				2AE768FA1DB65DBA59F50D68 /* UnitTests.xctest */,
 				68E87A9E1D1ED449001B67FB /* Shared.framework */,
 			);
@@ -385,7 +385,7 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		F3202EDCA0A132AAE8164B01 /* matome-news */ = {
+		F3202EDCA0A132AAE8164B01 /* App */ = {
 			isa = PBXGroup;
 			children = (
 				6857E78C1D26462800AE70D5 /* Helpers */,
@@ -397,7 +397,7 @@
 				983094DA16A33981D9F308D3 /* Views */,
 				FBF15F37AB8ECAD9158BF5CC /* Resources */,
 			);
-			path = "matome-news";
+			path = App;
 			sourceTree = "<group>";
 		};
 		FBF15F37AB8ECAD9158BF5CC /* Resources */ = {
@@ -477,9 +477,9 @@
 			productReference = 2AE768FA1DB65DBA59F50D68 /* UnitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		51F519E5BE7DDD73DD1A4D60 /* matome-news */ = {
+		51F519E5BE7DDD73DD1A4D60 /* App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D1D5D0BE1A589B494324C26 /* Build configuration list for PBXNativeTarget "matome-news" */;
+			buildConfigurationList = 2D1D5D0BE1A589B494324C26 /* Build configuration list for PBXNativeTarget "App" */;
 			buildPhases = (
 				021F41B445709D698B3CB24A /* Sources */,
 				A2AB14670437E3DD74107A47 /* Frameworks */,
@@ -495,9 +495,9 @@
 			dependencies = (
 				68E87AA41D1ED449001B67FB /* PBXTargetDependency */,
 			);
-			name = "matome-news";
+			name = App;
 			productName = "matome-news";
-			productReference = 0953FB075EE9BEB0306844EC /* matome-news.app */;
+			productReference = 0953FB075EE9BEB0306844EC /* matome.app */;
 			productType = "com.apple.product-type.application";
 		};
 		68E87A9D1D1ED449001B67FB /* Shared */ = {
@@ -534,7 +534,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A3459115D3781285ED9DB4B8 /* Build configuration list for PBXProject "matome-news" */;
+			buildConfigurationList = A3459115D3781285ED9DB4B8 /* Build configuration list for PBXProject "App" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -546,7 +546,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				51F519E5BE7DDD73DD1A4D60 /* matome-news */,
+				51F519E5BE7DDD73DD1A4D60 /* App */,
 				239D65B74CEF793601DDE32E /* UnitTests */,
 				68E87A9D1D1ED449001B67FB /* Shared */,
 			);
@@ -719,7 +719,7 @@
 		F305DE0441177DB743EFB6D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "matome-news";
-			target = 51F519E5BE7DDD73DD1A4D60 /* matome-news */;
+			target = 51F519E5BE7DDD73DD1A4D60 /* App */;
 			targetProxy = 58E1EF5B0057FF73F6B2623F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -771,7 +771,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/matome-news/Resources/Other-Sources/Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/App/Resources/Other-Sources/Bridging-Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -901,12 +901,12 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = "matome-news/Resources/Other-Sources/Info.plist";
+				INFOPLIST_FILE = "App/Resources/Other-Sources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.sandbox.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = matome;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -923,12 +923,12 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
-				INFOPLIST_FILE = "matome-news/Resources/Other-Sources/Info.plist";
+				INFOPLIST_FILE = "App/Resources/Other-Sources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.sandbox.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = matome;
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -987,14 +987,14 @@
 				ONLY_ACTIVE_ARCH = YES;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/matome-news/Resources/Other-Sources/Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/App/Resources/Other-Sources/Bridging-Header.h";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D1D5D0BE1A589B494324C26 /* Build configuration list for PBXNativeTarget "matome-news" */ = {
+		2D1D5D0BE1A589B494324C26 /* Build configuration list for PBXNativeTarget "App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B2F40B4FE9176E01A6A7928F /* Release */,
@@ -1021,7 +1021,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A3459115D3781285ED9DB4B8 /* Build configuration list for PBXProject "matome-news" */ = {
+		A3459115D3781285ED9DB4B8 /* Build configuration list for PBXProject "App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9D18812624F20C6A8FB2AF2 /* Debug */,

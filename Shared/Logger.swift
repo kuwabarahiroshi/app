@@ -89,4 +89,3 @@ public extension Logger {
         return filenamesAndURLs.map { ($0, NSData(contentsOfFile: $1.absoluteString)) }
     }
 }
-
