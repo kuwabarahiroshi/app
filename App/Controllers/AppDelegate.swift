@@ -8,8 +8,18 @@
 
 import UIKit
 import XCGLogger
+import URLNavigator
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    var window: UIWindow?
+  var window: UIWindow?
+
+  func application(application: UIApplication,
+                   didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
+    Routes.draw()
+    self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+    self.window?.rootViewController = Navigator.viewControllerForURL(Routes.Intro.path())
+    self.window?.makeKeyAndVisible()
+    return true
+  }
 }

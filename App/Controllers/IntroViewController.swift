@@ -5,6 +5,7 @@
 import UIKit
 import SnapKit
 import Shared
+import URLNavigator
 
 struct IntroViewControllerUX {
   static let Width = 375
@@ -61,7 +62,7 @@ protocol IntroViewControllerDelegate: class {
   func introViewControllerDidRequestToLogin(introViewController: IntroViewController)
 }
 
-class IntroViewController: UIViewController, UIScrollViewDelegate {
+final class IntroViewController: UIViewController, UIScrollViewDelegate, URLNavigable {
   weak var delegate: IntroViewControllerDelegate?
 
   static let SeenProfileKey = "IntroViewControllerSeen"
@@ -83,6 +84,14 @@ class IntroViewController: UIViewController, UIScrollViewDelegate {
   private var scrollView: IntroOverlayScrollView!
 
   var slideVerticalScaleFactor: CGFloat = 1.0
+
+  required init?(URL: URLConvertible, values: [String : AnyObject]) {
+    super.init(nibName: nil, bundle: nil)
+  }
+
+  required init?(coder aDecoder: NSCoder) {
+    fatalError("init(coder:) has not been implemented")
+  }
 
   override func viewDidLoad() {
     view.backgroundColor = UIColor.whiteColor()
