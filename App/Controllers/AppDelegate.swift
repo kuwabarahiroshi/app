@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                    didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
     Routes.draw()
     self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
-    self.window?.rootViewController = Navigator.viewControllerForURL(Routes.Intro.path())
+    self.window?.rootViewController = Navigator.viewControllerForURL(Routes.Root.path())
     self.window?.makeKeyAndVisible()
     return true
   }
