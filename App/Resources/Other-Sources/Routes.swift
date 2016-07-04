@@ -36,8 +36,12 @@ enum Routes: String {
 
   static func draw() {
     Navigator.scheme = self.scheme()!
+
+    let productName: String? = NSBundle.mainBundle().infoDictionary!["CFBundleName"] as? String
+
     for route in self.entries() {
-      if let viewController: URLNavigable.Type = NSClassFromString("matome.\(route)ViewController").self as? URLNavigable.Type {
+      let klass: AnyClass? = NSClassFromString("\(productName!).\(route)ViewController")
+      if let viewController: URLNavigable.Type = klass.self as? URLNavigable.Type {
         Navigator.map(route.rawValue, viewController)
       }
     }
