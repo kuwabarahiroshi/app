@@ -14,7 +14,7 @@ import SnapKit
 import Shared
 import PageMenu
 
-class ArticlesViewController: UIViewController {
+class ArticlesViewController: UIViewController, URLNavigable {
 
   // 記事一覧のtableView
   private lazy var articlesView: UITableView = UITableView().then {
@@ -32,7 +32,7 @@ class ArticlesViewController: UIViewController {
 
   required init?(URL: URLConvertible, values: [String : AnyObject]) {
     super.init(nibName: nil, bundle: nil)
-    self.title = "test"
+    self.title = values["category"] as! String
   }
 
   required init?(coder aDecoder: NSCoder) {

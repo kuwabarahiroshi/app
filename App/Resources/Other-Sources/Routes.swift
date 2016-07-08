@@ -12,6 +12,7 @@ import URLNavigator
 enum Routes: String {
   case Root = "/"
   case Intro = "/intro/"
+  case Articles = "/articles/<category>"
 
   static func entries() -> AnySequence<Routes> {
     typealias S = Routes

@@ -52,7 +52,11 @@ class RootViewController: UIViewController, URLNavigable {
 extension RootViewController {
   static func pages() -> [UIViewController] {
     return [
-      ArticlesViewController.init(URL: "", values: [:])!
-    ]
+      Navigator.viewControllerForURL("/articles/headline"),
+      Navigator.viewControllerForURL("/articles/news"),
+      Navigator.viewControllerForURL("/articles/ocult"),
+      Navigator.viewControllerForURL("/articles/xxx"),
+      Navigator.viewControllerForURL("/articles/kekkon")
+    ].filter { $0 != nil }.map { $0! }
   }
 }
