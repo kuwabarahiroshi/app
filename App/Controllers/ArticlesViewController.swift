@@ -32,6 +32,7 @@ class ArticlesViewController: UIViewController {
 
   required init?(URL: URLConvertible, values: [String : AnyObject]) {
     super.init(nibName: nil, bundle: nil)
+    self.title = "test"
   }
 
   required init?(coder aDecoder: NSCoder) {

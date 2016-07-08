@@ -17,7 +17,16 @@ import PageMenu
 class RootViewController: UIViewController, URLNavigable {
 
   private lazy var pageMenu: CAPSPageMenu = {
-    CAPSPageMenu(viewControllers: RootViewController.pages(), frame: self.view.frame, options: nil)
+    let params: [CAPSPageMenuOption] = [
+      .MenuItemSeparatorWidth(4.3),
+      .UseMenuLikeSegmentedControl(true),
+      .MenuItemSeparatorPercentageHeight(0.1)
+    ]
+    return CAPSPageMenu(
+      viewControllers: RootViewController.pages(),
+      frame: self.view.frame,
+      pageMenuOptions: params
+    )
   }()
 
   required init?(URL: URLConvertible, values: [String : AnyObject]) {
