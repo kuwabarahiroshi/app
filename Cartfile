@@ -17,7 +17,7 @@ github "akosma/SwiftMoment"
 github "mxcl/PromiseKit" ~> 3.1
 github "rollbar/rollbar-ios" "master"
 github "radex/SwiftyUserDefaults"
-github "uacaps/PageMenu"
+github "kitasuke/PagingMenuController"
 github "aleclarson/emitter-kit"
 github "DaveWoodCom/XCGLogger"
 github "rs/SDWebImage"
